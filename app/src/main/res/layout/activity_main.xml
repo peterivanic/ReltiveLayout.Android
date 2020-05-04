@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+
+
+    <TableRow>
+        <TextView android:text="Adresa URl:"/>
+        <EditText
+            android:id="@+id/entry"
+            tools:ignore="LabelFor"
+            android:layout_span="3"
+            />
+
+    </TableRow>
+
+
+
+
+    <TableRow>
+        <Button
+            android:text="cancel"
+            android:layout_column="2"
+            />
+        <Button android:text="OK"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        />
+
+</TableLayout>
